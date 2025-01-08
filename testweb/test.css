@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #b30000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 20px;
+    text-align: left;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 12px;
+    color: #ffd700;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.search-bar button:hover {
+    background-color: #e6b800;
+}
+
+.header-icons .icon {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-links {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.header-links a {
+    margin-left: 15px;
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
